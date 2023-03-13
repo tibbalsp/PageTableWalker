@@ -1,0 +1,4 @@
+This program is a kernel module that traverses the list of running processes and
+generates report that displays the process ID, process name of all processes with PID > 650, and the
+total number of pages allocated in memory. The program will report output from the kernel module 
+to the kernel log files  * tail -n 300 /var/log/syslog * in Ubuntu.
